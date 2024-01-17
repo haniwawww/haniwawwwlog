@@ -6,25 +6,6 @@ enableRobotsTXT: true
 taxonomies:
   tag: tags
 
-menu:
-  main:
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 1
-    - identifier: archive
-      name: Archive
-      url: /archives/
-      weight: 2
-    - identifier: tags
-      name: Tags
-      url: /tags/
-      weight: 3
-    - identifier: search
-      name: Search
-      url: /search/
-      weight: 4
-
 outputs:
   home:
     - HTML
@@ -40,6 +21,24 @@ languages:
     languageDirection: en
     languageName: English
     weight: 1
+    menu:
+      main:
+        - identifier: about
+          name: About
+          url: /en/about/
+          weight: 1
+        - identifier: archive
+          name: Archive
+          url: /en/archives/
+          weight: 2
+        - identifier: tags
+          name: Tags
+          url: /en/tags/
+          weight: 3
+        - identifier: search
+          name: Search
+          url: /en/search/
+          weight: 4
   ja:
     languageCode: ja-JP
     languageDirection: ja
