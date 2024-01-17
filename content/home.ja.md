@@ -1,4 +1,0 @@
----
-title: "ホーム"
-layout: "home"
----
