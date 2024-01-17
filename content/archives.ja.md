@@ -1,4 +1,4 @@
 ---
-title: "記事"
+title: "記録"
 layout: "archives"
 ---
