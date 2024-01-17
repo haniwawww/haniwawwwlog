@@ -1,0 +1,111 @@
+baseURL: https://example.org/
+
+title: haniwawwwlog
+theme: PaperMod
+enableRobotsTXT: true
+taxonomies:
+  tag: tags
+
+menu:
+  main:
+    - identifier: archive
+      name: Archive
+      url: /archives/
+      weight: 1
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 2
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 3
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 4
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
+
+languageCode: en
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: true
+languages:
+  en:
+    languageCode: en-US
+    languageDirection: en
+    languageName: English
+    weight: 1
+  ja:
+    languageCode: ja-JP
+    languageDirection: ja
+    languageName: 日本語
+    weight: 2
+    menu:
+      main:
+        - identifier: archive
+          name: 記事
+          url: /ja/archives/
+          weight: 1
+        - identifier: search
+          name: 検索
+          url: /ja/search/
+          weight: 2
+        - identifier: tags
+          name: タグ
+          url: /ja/tags/
+          weight: 3
+        - identifier: about
+          name: このサイトについて
+          url: /ja/about/
+          weight: 4
+    params:
+      homeInfoParams:
+        Title: "こんにちは"
+        Content: これは私の個人的な記録である．主に個人で進めている研究について記録する．
+
+params:
+  env: development
+  title: haniwawwwlog
+  description: "haniwawww's log"
+  images: icon-500x500.png
+
+  showReadingTime: true
+  showPostNavLinks: true
+  showBreadCrumbs: true
+  showCodeCopyButtons: false
+  showWordCount: true
+  showRssButtonInSectionTermList: true
+  displayFullLangName: true
+
+  assets:
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    safari_pinned_tab: "/apple-touch-icon.png"
+
+  homeInfoParams:
+    Title: "Hi"
+    Content: This is my personal log. I mainly record my research, which I am doing on my own.
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/haniwawww"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/tomoki-takahashi-1b15b2189/"
+    - name: kofi
+      url: "https://ko-fi.com/haniwawww"
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: [ "title", "permalink", "summary", "content" ]
