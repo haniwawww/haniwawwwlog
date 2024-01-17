@@ -1,15 +1,13 @@
 +++
-title = 'Introduction'
+title = 'About This Log'
 date = 2024-01-16T19:24:47+09:00
 +++
-This record is a trace of my rubber duck debugging.
+This log is a trace of my rubber duck debugging.
 
-I have seen certain results from my long-standing personal research. I wanted opinions on these results and participated in a research group. I received two major pieces of feedback. One was that the definitions of terms used in my research were ambiguous. The other was the lack of comparison with precedent cases.
+I participated in a research group because my longstanding personal research had achieved certain results. I wanted opinions on these outcomes. Thankfully, I received several comments. All were issues I had previously considered, and I should have been able to respond orally. At least, that was the expectation. Although I had responses in my mind, I couldn't transform them into spoken words.
 
-Both were my shortcomings, but the latter concerned me. I had previously made comparisons with those precedent cases and could have responded orally. At least, I should have been able to. However, the words that came out of my mouth lacked logic and made for a poor response.
+This is due to my uncertainty. My research has primarily been completed in my head, involving a repetitive cycle of reading books and papers and then contemplating. As a result, I lacked a tangible output, leading to the aforementioned uncertainty.
 
-This indicates my uncertainty. My research is mainly completed in my head. I input books and papers and think, repeating this process. As a result, I lack a meaningful output, leading to my earlier forgetfulness and uncertainty.
+A former colleague once said, "Reading enriches a person, speaking makes a person agile, and writing makes a person certain." It seems to be a philosopher's words. If this is true, then by writing, I should indeed become more certain.
 
-A former colleague once said, "Reading enriches a person, speaking makes a person agile, and writing makes a person certain." It seems to be the words of some scholar. If this is true, then by writing, I should become certain.
-
-I hope that language will make me certain.
+I hope that language will solidify my certainty.
