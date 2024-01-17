@@ -12,6 +12,9 @@ outputs:
     - RSS
     - JSON # is necessary
 
+sitemap:
+  changefreq: weekly
+
 languageCode: en
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: true
