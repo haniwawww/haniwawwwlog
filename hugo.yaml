@@ -102,8 +102,6 @@ params:
   socialIcons:
     - name: github
       url: "https://github.com/haniwawww/haniwawwwlog/"
-    - name: linkedin
-      url: "https://www.linkedin.com/in/tomoki-takahashi-1b15b2189/"
     - name: kofi
       url: "https://ko-fi.com/haniwawww"
 
