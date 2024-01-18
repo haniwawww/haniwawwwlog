@@ -49,7 +49,7 @@ languages:
     params:
       homeInfoParams:
         Title: "Hello"
-        Content: This is my personal log. I mainly record my research, which I am doing on my own.
+        Content: "This is my personal log. I mainly record my research, which I am doing on my own. \n\n If you have any comments or questions about my research, please create an [issue](https://github.com/haniwawww/haniwawwwlog/issues) on GitHub."
   ja:
     languageCode: ja-JP
     languageDirection: ja
@@ -76,7 +76,7 @@ languages:
     params:
       homeInfoParams:
         Title: "こんにちは"
-        Content: これは私の個人的な記録である．主に個人で進めている研究について記録する．
+        Content: "これは私の個人的な記録です．主に個人で進めている研究について記録します．\n\n もし研究について指摘や質問があれば，お手数ですがGitHubに[issue](https://github.com/haniwawww/haniwawwwlog/issues)を立ててください．"
 
 params:
   env: development
@@ -101,7 +101,7 @@ params:
 
   socialIcons:
     - name: github
-      url: "https://github.com/haniwawww"
+      url: "https://github.com/haniwawww/haniwawwwlog/"
     - name: linkedin
       url: "https://www.linkedin.com/in/tomoki-takahashi-1b15b2189/"
     - name: kofi
