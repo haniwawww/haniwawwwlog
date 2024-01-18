@@ -81,8 +81,8 @@ languages:
 params:
   env: development
   title: haniwawwwlog
-  description: "haniwawww's log"
-  images: icon-500x500.png
+  description: "haniwawww's personal log"
+  images: twitter_card.png
 
   showReadingTime: true
   showPostNavLinks: true
