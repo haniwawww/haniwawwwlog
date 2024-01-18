@@ -82,7 +82,7 @@ params:
   env: development
   title: haniwawwwlog
   description: "haniwawww's personal log"
-  images: twitter_card.png
+  images: site-card.png
 
   showReadingTime: true
   showPostNavLinks: true
