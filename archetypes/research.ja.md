@@ -1,0 +1,7 @@
++++
+title = '{{ replace .File.ContentBaseName "-" " " | title }}'
+date = {{ .Date }}
+slug = '{{ replace .File.UniqueID "-" " " | title }}'
+tags = ["研究"]
+draft = true
++++
