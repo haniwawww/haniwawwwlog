@@ -15,3 +15,6 @@ review $(title):
 
 review.ja $(title):
 	hugo new content --kind review.ja review/$(title).md
+
+update.papermod:
+	git submodule update --remote --merge
